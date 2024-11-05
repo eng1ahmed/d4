@@ -1,0 +1,51 @@
+h2{
+    text-transform: capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 5px 0px #e0e0e0e0;
+}
+.p{
+    transition: 0.5s;
+padding: 20px;
+width: 300px;
+height: 100px;
+background-color: #e0e0e0e0;
+text-align: center;
+}
+.p:hover{
+    transition-delay:0.5s ;
+    margin-top: 50px;
+}
+.c{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+transition-delay: .5s;
+}
+.c:hover{
+transition-delay: 0.5s;
+transition: 0.5s;
+margin-top: 50px;
+}
+.v{
+    background-color: #e0e0e0e0 !important;
+    border: none !important;
+    font-size: 20px !important;
+    content: "" !important;
+    color: black !important;
+}
+.v::before{
+    content: "Elzero" !important;
+    color: black !important;
+    font-size: 20 !important;
+    padding: 20px !important;
+}
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+
+.d{
+border: 2px solid var(--mainColor);
+padding: var(--mainPadding);
+color: var(--mainColor);
+margin-top: 10px;
+}

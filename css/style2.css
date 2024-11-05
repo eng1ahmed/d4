@@ -1,0 +1,213 @@
+h2{
+    text-transform: capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 5px 0px #e0e0e0e0;
+}
+.e{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    color: rgb(255, 123, 0);
+    margin: 20px auto;
+    background-color: #e0e0e0e0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 0px 0px rgb(255, 123, 0), -6px 0px 0px rgb(0 137 255);
+}
+.parentt{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #e0e0e0e0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+align-content: space-between;
+}
+.parentt div{
+    justify-content: space-between;
+    width: calc(94% / 3);
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    background-color: #ff3b3be0;
+    display: flex; 
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+}
+.parent{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #e0e0e0e0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent div{
+    width: calc(96% / 3);
+    color: rgb(255, 255, 255);
+    background-color: #555268e0;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    order:6;
+    height: 40px;
+    align-self: self-end;
+}
+.two{
+    order: 5;
+}
+.six{
+    order: -2;
+}
+.five{
+    order: 4;
+}
+.three{
+    height: 40px;
+}
+.four,.two,.six,.five{
+    position: relative;
+    height: 150px;
+}
+.parenttt{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #e0e0e0e0;
+    display: flex;
+flex-direction: row;
+
+}
+.twoo{
+    width: 300px !important;
+    height: 40px;
+    background-color: #00ffaae0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    align-self: center;
+    justify-self: self-start;
+}
+
+.onee{
+    flex-direction: column !important;
+    order: 2;
+    height: 30px;
+    width: 100px ;
+    background-color: #00ffaae0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    align-self: flex-start;
+    justify-self: left;
+    flex-direction: column !important;
+}
+.threee{
+    height: 30px;
+    width: 100px ;
+    background-color: #00ffaae0;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    align-self: flex-end;
+    justify-self: right;
+    flex-direction: column !important;
+}
+.p{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #e0e0e0e0;
+    display: flex;
+flex-direction: row; 
+justify-content: space-between; 
+}
+.p div{
+    width: calc(96% / 5);
+    color: rgb(255, 255, 255);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.o{
+    order: 2;
+    background-color: #ffae00e0;
+}
+.th{
+    order: 4;
+    background-color: #4e3500e0;
+}
+.f{
+    order: 1;
+    align-self: self-end;
+    background-color: #8c00ffe0;
+}
+.t{
+    order: 4;
+    align-self: self-end;
+    background-color: #88ff00e0;
+}
+.page{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: #f1eeeee0;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul{
+    justify-self: left;
+    width: 650px;
+    background-color: #e0e0e0e0;
+    display: flex;
+justify-content: right;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+}
+.logo{
+    justify-self: right;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    display: flex;
+    background-color: #e0e0e0e0;
+}
+.header{
+    width: 750px;
+    width: 50px;
+    display: flex;
+    background-color: #e0e0e0e0;
+    justify-self:self-start;
+    align-self: self-start;
+}
+.main-area{
+    display: flex;
+    width: 750px;
+    height: 300px;
+    justify-self: center;
+    align-self: center;
+    background-color:#e0e0e0e0;
+}
+.content{
+    display: flex;
+    width: 60%;
+    height: 40%;
+}
+.footer{
+    width: 750px;
+    width: 50px;
+    display: flex;
+    background-color: #e0e0e0e0;
+    justify-self:self-start;
+    align-self: self-end;
+}
+
